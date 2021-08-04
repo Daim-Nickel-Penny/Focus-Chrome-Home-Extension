@@ -6,6 +6,8 @@ The api fetches the image from the database and then returns it to the extension
 It is a proxy API.
 Too many requests are also handled with a IP lock.
 
+Extension can be found [here](https://github.com/Daim-Nickel-Penny/Focus-Chrome-Extension)
+
 ## Caching Enabled
 Caching is enabled to improve the performance for every tab if opneded within the new image request time.
 
