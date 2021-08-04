@@ -6,6 +6,9 @@ The api fetches the image from the database and then returns it to the extension
 It is a proxy API.
 Too many requests are also handled with a IP lock.
 
+## Caching Enabled
+Caching is enabled to improve the performance for every tab if opneded within the new image request time.
+
 ## Response for the API is-
 
 ```sh
@@ -26,3 +29,6 @@ Too many requests are also handled with a IP lock.
 
 Blocks the user for 60 seconds before they could again send a request. 
 This time can be varyed through code.
+
+
+![Limiter in action](https://github.com/Daim-Nickel-Penny/Focus-Proxy-Api/blob/main/focuse_img1.PNG?raw=true)
